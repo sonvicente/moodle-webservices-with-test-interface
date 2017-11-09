@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Webservice Add Curso</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="estilo.css" rel="stylesheet" type="text/css"/>
+        
+    </head>
+    <body>
+        <div id="principal"> 
+            <h3>Adiciona um Curso no Moodle. </h3> 
+            <p>Os parâmetros que podem ser utilizado como name="" nos inputs estão comentados no arquivo addCurso.php</p>
+            
+            
+            <form action="addCurso.php" method="POST">
+                
+                <label>Nome Completo</label>
+                <input type="text" name="nomeCompleto" />
+                
+                 <label>Nome Curto</label>
+                <input type="text" name="nomeCurto" />                
+                                        
+                
+                 <label>id do Curso</label>
+                <input type="text" name="cursoId" />
+                
+                           
+                <input type="submit" value="ok" class="bt"/>
+                
+            </form>
+        </div>
+    </body>
+</html>

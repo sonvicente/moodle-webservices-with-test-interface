@@ -1,0 +1,30 @@
+
+#principal{
+    width: 600px;
+    margin: 0 auto;    
+}
+
+label{    
+    display: block;
+    width: 120px;      
+}
+
+input{
+    display: block;
+}
+
+.bt, label{
+    margin-top: 25px;
+}
+
+li{
+    list-style: none;    
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #000;
+}

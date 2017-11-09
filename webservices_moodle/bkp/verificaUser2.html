@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Retorna dados do usuário pelo campo</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="estilo.css" rel="stylesheet" type="text/css"/>
+        
+    </head>
+    <body>
+        <div id="principal"> 
+            <h3>Teste de webservice - Verifica User</h3>
+            
+            
+            <form action="verificaUser2.php" method="POST">
+                
+             Buscar por: <br />
+             Usuário <input type="radio" name="busca" value="username" style="display: inline;"/> 
+             Email   <input type="radio" name="busca" value="email" style="display: inline;"/>
+             
+
+                
+                <label>Busca</label>
+                <input type="text" name="username"/>
+                
+               
+                
+                <input type="submit" value="ok" class="bt"/>
+                
+            </form>
+        </div>
+    </body>
+</html>
